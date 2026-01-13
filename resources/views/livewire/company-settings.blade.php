@@ -45,6 +45,10 @@
                             <span>Logo de la Empresa</span>
                         </h2>
 
+                        <p class="text-xs text-red-500">
+    {{ $current_logo_url }}
+</p>
+
                         <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
                             {{-- Preview --}}
                             <div class="flex-shrink-0">
